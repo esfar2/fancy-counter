@@ -1,7 +1,18 @@
-import './App.css';
-
+import Title from './Title';
 function App() {
-  return <h1>Hello GGWP</h1>;
+  return (
+    <main>
+      <div>
+        <Title></Title>
+        <p>0</p>
+        <button>Reset</button>
+        <div>
+          <button>-</button>
+          <button>+</button>
+        </div>
+      </div>
+    </main>
+  );
 }
 
 export default App;
