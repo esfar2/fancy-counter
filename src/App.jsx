@@ -1,16 +1,9 @@
-import Title from './Title';
+import Card from './Card';
+
 function App() {
   return (
     <main>
-      <div>
-        <Title></Title>
-        <p>0</p>
-        <button>Reset</button>
-        <div>
-          <button>-</button>
-          <button>+</button>
-        </div>
-      </div>
+      <Card></Card>
     </main>
   );
 }
